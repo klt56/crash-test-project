@@ -85,6 +85,10 @@ GEM
     devise-jwt (0.10.0)
       devise (~> 4.0)
       warden-jwt_auth (~> 0.6)
+    dotenv (2.8.1)
+    dotenv-rails (2.8.1)
+      dotenv (= 2.8.1)
+      railties (>= 3.2)
     dry-auto_inject (1.0.1)
       dry-core (~> 1.0)
       zeitwerk (~> 2.6)
@@ -175,6 +179,7 @@ GEM
       actionpack (>= 5.2)
       railties (>= 5.2)
     sqlite3 (1.6.1-x86_64-linux)
+    stripe (8.3.0)
     thor (1.2.1)
     timeout (0.3.2)
     tzinfo (2.0.6)
@@ -199,6 +204,7 @@ DEPENDENCIES
   debug
   devise (~> 4.9)
   devise-jwt (~> 0.10.0)
+  dotenv-rails
   faker
   jsonapi-serializer (~> 2.2)
   mapkick-rb
@@ -206,6 +212,7 @@ DEPENDENCIES
   rack-cors (~> 2.0)
   rails (~> 7.0.4, >= 7.0.4.2)
   sqlite3 (~> 1.4)
+  stripe
   tzinfo-data
 
 RUBY VERSION
